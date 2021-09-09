@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;self_test_ADC/Ark_Process&apos;" deleteContents="false" description="Delete resource &apos;self_test_ADC/Ark_Process&apos;" element1="/self_test_ADC/Ark_Process" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1515835718230"/>&#x0A;<refactoring comment="Delete resource &apos;self_test_ADC/Ark.h&apos;" deleteContents="false" description="Delete resource &apos;self_test_ADC/Ark.h&apos;" element1="/self_test_ADC/Ark.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1515860844604"/>
+</session>

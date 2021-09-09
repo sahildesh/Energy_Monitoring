@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;learn1&apos; to &apos;learn1-led blink&apos;" description="Rename resource &apos;learn1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/learn1" name="learn1-led blink" stamp="1513492863093" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;learn2-interrupt/driverlib.lib&apos;" deleteContents="false" description="Delete resource &apos;learn2-interrupt/driverlib.lib&apos;" element1="/learn2-interrupt/driverlib.lib" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1513687815314"/>
+</session>

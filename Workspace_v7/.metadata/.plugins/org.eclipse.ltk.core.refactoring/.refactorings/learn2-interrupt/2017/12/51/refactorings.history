@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;driverlib.lib&apos; to &apos;learn2-interrupt&apos;" description="Move &apos;driverlib.lib&apos; to &apos;learn2-interrupt&apos;" destination="/learn2-interrupt" element1="/lab4/driverlib.lib" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1513687620286" updateReferences="true"/>
+</session>

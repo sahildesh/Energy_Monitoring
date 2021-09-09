@@ -1,0 +1,68 @@
+#include <stdint.h>
+#include <stdbool.h>
+#include "inc/hw_memmap.h"
+#include "inc/hw_types.h"
+#include "driverlib/debug.h"
+#include "driverlib/gpio.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/adc.h"
+#include "Ark_functions.h"
+#include "math.h"
+
+/**
+ * main.c
+ */
+int main(void)
+{
+    uint32_t ui32ADC0Value[4];
+    volatile double voltage;
+    double reference;
+    volatile float ADC_value;
+    double current;
+    float ADC_current;
+    double power;
+    int counter=0;
+    double temp_rms=0;
+    volatile double rms_val=0;
+
+    //SysCtlClockSet(SYSCTL_SYSDIV_5|SYSCTL_USE_PLL|SYSCTL_OSC_MAIN|SYSCTL_XTAL_16MHZ);
+
+    InitHardware();
+
+
+
+
+
+    while(1)
+        {
+            ADCIntClear(ADC0_BASE, 2);
+            ADCProcessorTrigger(ADC0_BASE, 2);
+
+            while(!ADCIntStatus(ADC0_BASE, 2, false))
+            {
+            }
+
+            ADCSequenceDataGet(ADC0_BASE, 2, ui32ADC0Value);
+
+            reference = ui32ADC0Value[0];
+
+            voltage = (ui32ADC0Value[1]*(3.3/4096)-1.5)*267;        // multiply 0.00080
+            ADC_value = ui32ADC0Value[1];
+
+            // RMS value calculate
+            temp_rms=temp_rms+(voltage*voltage);
+            counter=counter+1;
+            if(counter%100==0){
+                counter=0;
+                rms_val=new_sqrt(temp_rms/100);
+                temp_rms=0;
+            }
+
+            current=ui32ADC0Value[2]*3.3/4096;
+            ADC_current=ui32ADC0Value[2];
+        }
+}
+
+double rms_calculator(double temp){
+
+}

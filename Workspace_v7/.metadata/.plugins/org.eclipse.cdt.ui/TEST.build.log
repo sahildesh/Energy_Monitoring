@@ -1,0 +1,107 @@
+
+**** Build of configuration Debug for project TEST ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../Apollo_Drivers.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/lavesh/workspace_v7/TEST" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Apollo_Drivers.d_raw"  "../Apollo_Drivers.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Apollo_Drivers.obj' failed
+"../Apollo_Drivers.c", line 7: fatal error #1965: cannot open source file "pin_map.h"
+1 catastrophic error detected in the compilation of "../Apollo_Drivers.c".
+Compilation terminated.
+gmake: *** [Apollo_Drivers.obj] Error 1
+'Building file: ../Apollo_Main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/lavesh/workspace_v7/TEST" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Apollo_Main.d_raw"  "../Apollo_Main.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'Apollo_Main.obj' failed
+"../Apollo_Main.c", line 3: fatal error #1965: cannot open source file "hw_memmap.h"
+1 catastrophic error detected in the compilation of "../Apollo_Main.c".
+Compilation terminated.
+gmake: *** [Apollo_Main.obj] Error 1
+'Building file: ../Apollo_Process_SM.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/lavesh/workspace_v7/TEST" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Apollo_Process_SM.d_raw"  "../Apollo_Process_SM.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'Apollo_Process_SM.obj' failed
+"../Apollo_Process_SM.c", line 3: fatal error #1965: cannot open source file "tm4c123gh6pz.h"
+1 catastrophic error detected in the compilation of "../Apollo_Process_SM.c".
+Compilation terminated.
+gmake: *** [Apollo_Process_SM.obj] Error 1
+'Building file: ../Apollo_Measurement.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/lavesh/workspace_v7/TEST" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Apollo_Measurement.d_raw"  "../Apollo_Measurement.c"
+
+>> Compilation failure
+subdir_rules.mk:23: recipe for target 'Apollo_Measurement.obj' failed
+"../Apollo_Measurement.c", line 6: fatal error #1965: cannot open source file "tm4c123gh6pz.h"
+1 catastrophic error detected in the compilation of "../Apollo_Measurement.c".
+Compilation terminated.
+gmake: *** [Apollo_Measurement.obj] Error 1
+'Building file: ../Apollo_Startup.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/lavesh/workspace_v7/TEST" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Apollo_Startup.d_raw"  "../Apollo_Startup.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'Apollo_Startup.obj' failed
+"../Apollo_Startup.c", line 3: fatal error #1965: cannot open source file "tm4c123gh6pz.h"
+1 catastrophic error detected in the compilation of "../Apollo_Startup.c".
+Compilation terminated.
+gmake: *** [Apollo_Startup.obj] Error 1
+'Building file: ../Auto_Calibration.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/lavesh/workspace_v7/TEST" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Auto_Calibration.d_raw"  "../Auto_Calibration.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'Auto_Calibration.obj' failed
+"../Auto_Calibration.c", line 3: fatal error #1965: cannot open source file "tm4c123gh6pz.h"
+1 catastrophic error detected in the compilation of "../Auto_Calibration.c".
+Compilation terminated.
+gmake: *** [Auto_Calibration.obj] Error 1
+'Building file: ../ISR_ADC_GPIO_UART.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/lavesh/workspace_v7/TEST" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ISR_ADC_GPIO_UART.d_raw"  "../ISR_ADC_GPIO_UART.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'ISR_ADC_GPIO_UART.obj' failed
+"../ISR_ADC_GPIO_UART.c", line 3: fatal error #1965: cannot open source file "hw_types.h"
+1 catastrophic error detected in the compilation of "../ISR_ADC_GPIO_UART.c".
+Compilation terminated.
+gmake: *** [ISR_ADC_GPIO_UART.obj] Error 1
+'Building file: ../Local_Addressing.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/lavesh/workspace_v7/TEST" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Local_Addressing.d_raw"  "../Local_Addressing.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'Local_Addressing.obj' failed
+"../Local_Addressing.c", line 1: fatal error #1965: cannot open source file "tm4c123gh6pz.h"
+1 catastrophic error detected in the compilation of "../Local_Addressing.c".
+Compilation terminated.
+gmake: *** [Local_Addressing.obj] Error 1
+'Building file: ../ISR_Timers.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/lavesh/workspace_v7/TEST" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ISR_Timers.d_raw"  "../ISR_Timers.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'ISR_Timers.obj' failed
+"..\Apollo_Header.h", line 6: fatal error #1965: cannot open source file "IQmathLib.h"
+1 catastrophic error detected in the compilation of "../ISR_Timers.c".
+Compilation terminated.
+gmake: *** [ISR_Timers.obj] Error 1
+'Building file: ../UART_Menu.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/lavesh/workspace_v7/TEST" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="UART_Menu.d_raw"  "../UART_Menu.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'UART_Menu.obj' failed
+"../UART_Menu.c", line 4: fatal error #1965: cannot open source file "pin_map.h"
+1 catastrophic error detected in the compilation of "../UART_Menu.c".
+Compilation terminated.
+gmake: *** [UART_Menu.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
